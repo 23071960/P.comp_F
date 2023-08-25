@@ -1,0 +1,90 @@
+/* Estilos para o corpo da página */
+@import url(/Styles/header.css);
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --laranja:#EB9800;
+    --azul-degrade: linear-gradient(97.54deg,#002f52 35.40%, #326589 165.37%);
+    --preto:#000000;
+    --fonte-principal: poppins; 
+    --azul: #002F52;
+    --fonte-secundaria:"Josefin Sans";
+    --cinza:#474646;
+    --cinza-claro:#858585;
+
+}
+body {
+    background-color:  var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Estilos para o formulário */
+#meuFormulario {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    background-color: #2ace74;
+}
+
+/* Estilos para o popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:var(--azul-degrade);
+    width: 50%;
+    height: 50%;
+}
+
+.popup-content {
+    background-color: #f1eded;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a lista de dados */
+#listaDados {
+    margin: 20px;
+    padding: 20px;
+    list-style:decimal;
+}
+
+#listaDados li {
+    margin-bottom: 05px;
+    
+}
+.lista{
+    border: 2px solid #141414;
+    border-radius: 5px;
+    background-color: #2ace74;
+}
+.titulo_lista{
+    font-size: pipoca;
+    margin-left: 20px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+th {
+	background-color: #cccccc;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+

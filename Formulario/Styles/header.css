@@ -1,0 +1,20 @@
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.cabeçalho__titulo{
+    background-color: var(--branco);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position:relative
+    
+}
+.titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    text-align: center;
+}
